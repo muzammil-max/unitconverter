@@ -1,6 +1,5 @@
 import streamlit as st
 import time 
-# from streamlit_extras.metric_cards import style_metric_cards # type: ignore
 
 
 #setting the page
