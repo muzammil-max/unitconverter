@@ -1,6 +1,6 @@
 import streamlit as st
 import time 
-from streamlit_extras.metric_cards import style_metric_cards # type: ignore
+# from streamlit_extras.metric_cards import style_metric_cards # type: ignore
 
 
 #setting the page
@@ -102,7 +102,7 @@ def currency_converter():
             result = convert(value,from_currency,to_currency,currencies)
             st.success(f"{value}{from_currency}= {result:.2f}{to_currency}")
 
-style_metric_cards()
+# style_metric_cards()
 
 
 
